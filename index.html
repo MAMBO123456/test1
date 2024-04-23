@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS Blocker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>SMS Blocker</h1>
+    <form id="blockedNumbersForm">
+      <label for="number">Enter a number to block:</label>
+      <input type="text" id="number" name="number" placeholder="E.g., 123456789">
+      <button type="button" id="addNumber">Block</button>
+    </form>
+    <div id="blockedNumbersList">
+      <h2>Blocked Numbers</h2>
+      <ul id="numbers"></ul>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
